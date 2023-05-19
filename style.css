@@ -1,0 +1,42 @@
+header{
+  text-align: center;
+  font-size: 24px;
+}
+center{
+  text-align: center;
+}
+anker {
+  position: relative;
+}
+menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/*メニュー部分*/
+details summary{
+  /*padding:1% 2%;*/
+  background:rgb(123, 123, 255);
+  color:white;
+  transition:  0.5s; 
+}
+/*折りたたむ部分*/
+details p{
+  margin: 2% 4%;
+}
+details{
+  width:120%;
+}
+.left_text_centerplace {
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+}
+.box {
+border: #4e7bcc 1px solid; /*境界線の指定*/
+padding:10px;
+}
+.box p {
+margin:0;
+padding:0;
+}
