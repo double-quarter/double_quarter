@@ -29,7 +29,7 @@ details{
 }
 .left_text_centerplace {
   text-align: left;
-  width: fit-content;
+  width: 60%;
   margin: 0 auto;
 }
 .box {
@@ -40,3 +40,14 @@ padding:10px;
 margin:0;
 padding:0;
 }
+
+/*表の適切なサイズ設定*/
+table {
+  width: 75%; /* 表全体の幅を75%に設定 */
+  table-layout: auto; /* 自動レイアウトモードを使用 */
+}
+th, td {
+  border: 1px solid black; /* 枠線を追加（任意） */
+  padding: 8px; /* セルの余白を設定（任意） */
+}
+
